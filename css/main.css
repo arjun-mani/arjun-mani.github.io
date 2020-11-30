@@ -105,7 +105,7 @@ blockquote .cite {
 }
 
 p, ol, ol li, ul, ul li {
-  font-family: 'Inter', 'Helvetica', 'Sans-Serif';
+  font-family: 'Helvetica', 'Sans-Serif';
   font-size: 16px;
   line-height: 1.6em;
   color: #45413A;
@@ -225,14 +225,14 @@ header h1 {
 .footnotes {
   font-family: 'Helvetica', 'Sans-Serif';
   font-size: 12px;
-  color: #45413A;
+  color: #666666;
   padding-top: 10px;
   padding-bottom: 25px;
 }
 
 .footnotes hr {
   width: 100px;
-  background-color: #F05232;
+  background-color: #ffffff;
   border-color: transparent;
 }
 
@@ -262,7 +262,7 @@ header h1 {
  }
 
 hr {
-  background-color: #F05232;
+  background-color: #666666;
   border-color: transparent;
 }
 
@@ -293,11 +293,7 @@ figcaption {
 }
 
 .title a {
-  color: #000;
-}
-.title a:hover {
-  text-decoration: none;
-  color: #F05232;
+  color: #000000;
 }
  
 div.about {
@@ -400,18 +396,18 @@ img.about {
 
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-  background-color: #F05232;
+  background-color: #666666;
   color: #fff;
 }
 
 /***For Other Browsers ***/
 ::-o-selection {
-  background-color: #F05232;
+  background-color: #666666;
   color: #fff;
 }
 
 ::-ms-selection {
-  background-color: #F05232;
+  background-color: #666666;
   color: #fff;
 }
 
