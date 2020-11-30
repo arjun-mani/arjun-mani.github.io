@@ -55,15 +55,15 @@ footer ul li {
   margin-right: 20px;
 }
 footer a {
-  color: #D8CCB3;
+  color: 09bde6;
 }
 a {
   text-decoration: none;
-  color: #9B8C7A;
+  color: 09bde6;
 }
 a:hover {
   text-decoration: none;
-  color: #F05232;
+  color: #05d1ff;
 }
 
 h1 {
@@ -72,7 +72,7 @@ h1 {
 }
 h1, h2, h3 {
   font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
-  color: #F05232;
+  color: #666666;
 }
 
 blockquote {
