@@ -21,7 +21,7 @@ body {
 .divTableCell {
 	border: none;
 	display: table-cell;
-	padding: 3px 10px;
+	padding: 0px 10px;
 }
 .divTableBody {
 	border: none;
@@ -29,7 +29,7 @@ body {
 }
 
 img.left {
-  padding: 25px 100px 50px 0;
+  padding: 0px 100px 100px 0;
   width: 250px;
   margin-left: auto;
   margin-right: auto;
