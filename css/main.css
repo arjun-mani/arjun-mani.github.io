@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 60px auto;
+  width: 70%;
+  background-color: #F5ECD9;
+}
+footer ul {
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+footer a {
+  color: #D8CCB3;
+}
+a {
+  text-decoration: none;
+  color: #9B8C7A;
+}
+a:hover {
+  text-decoration: none;
+  color: #F05232;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+h1, h2, h3 {
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  color: #F05232;
+}
+
+blockquote {
+  border-left: 8px solid #F05232;
+  margin-left: 1.5em 10px;
+  /* padding: 0.5em 10px; */
+  font-size: 24px;
+  font-family: 'EB Garamond', 'Times New Roman', 'Serif';
+  line-height: 36px;
+  text-indent: -0.45em;
+  text-decoration: italic;
+  color: #F05232;
+  padding: 7px 0 7px 28px;
+}
+
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote .cite {
+  display: inline;
+  color: #D8CCB3;
+  font-family: 'Inter', 'Helvetica', 'Sans-Serif';
+  font-size: 12px;
+}
+
+p, ol, ol li, ul, ul li {
+  font-family: 'Inter', 'Helvetica', 'Sans-Serif';
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #45413A;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+  position: relative;
+}
+ol > li:before {
+  counter-increment: list;
+  content: "(" counter(list) ") ";
+  position: absolute;
+  left: -1.4em;
+}
+
+footer {
+  border-top: 1px solid #D8CCB3;
+  font-size: .8em;
+  min-width: 900px;
+}
+
+ul.posts {
+  margin: 20px auto 40px;
+}
+
+ul.posts li {
+  list-style: none;
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  font-size: 24px;
+}
+
+header, nav {
+  height: 120px;
+}
+
+header {
+  vertical-align: middle;
+  min-width: 900px;
+}
+
+nav ul {
+  margin: 0;
+  height: 100%;
+  display: table;
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li {
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+}
+
+nav li {
+  display:inline;
+  padding:10px;
+}
+
+header nav {
+  list-style: center;
+  float: right;
+  vertical-align: middle;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+.excerpt {
+  margin-left: 20px;
+}
+
+.excerpt, .excerpt a, .excerpt a:hover {
+  color: #45413A;
+}
+
+.read-more {
+  margin-left: 20px;
+  text-decoration: italic;
+  margin-bottom: 40px;
+}
+
+.refs ol {
+  margin: 0px;
+  padding-bottom: 25px;
+  height: 100%;
+  display: block;
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  font-size: 16px;
+  color: #45413A;
+}
+
+.refs ol li {
+  padding-bottom: 10px;
+}
+
+.refs ol {
+  counter-reset: list;
+}
+.refs ol > li {
+  list-style: none;
+  position: relative;
+}
+.refs ol > li:before {
+  counter-increment: list;
+  content: counter(list) ". ";
+  position: absolute;
+  left: -1.4em;
+}
+
+.footnotes {
+  font-family: 'Inter', 'Helvetica', 'Sans-Serif';
+  font-size: 12px;
+  color: #45413A;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.footnotes hr {
+  width: 100px;
+  background-color: #F05232;
+  border-color: transparent;
+}
+
+.footnotes section {
+  padding-bottom: 10px;
+}
+
+.pagination a, .pagination span {
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  font-size: 20px;
+  color: #D8CCB3;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+
+.pagination a:hover {
+  color: #F05232;
+ }
+
+.pagination {
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+  font-size: 20px;
+  color: #F05232;
+  text-align: center;
+ }
+
+hr {
+  background-color: #F05232;
+  border-color: transparent;
+}
+
+figure {
+  padding: 20px;
+  align: center;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  min-width: 400px;
+}
+
+figcaption {
+  font-size: 14px;
+  font-family: 'Inter', 'Helvetica', 'Sans-Serif';
+  text-decoration: italic;
+  color: #45413A;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.title {
+  float: left;
+  margin: 0;
+  display: table;
+  width: 300px;
+  padding-top: 10px;
+}
+
+.title a {
+  color: #000;
+}
+.title a:hover {
+  text-decoration: none;
+  color: #F05232;
+}
+
+.about {
+  padding-top: 50px;
+  height: 500px;
+  width: 90%;
+  min-width: 900px;
+}
+
+.about img {
+  padding: 25px 100px 50px 0;
+  width: 250px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub {
+  padding-bottom: 20px;
+  min-width: 600px;
+  max-width: 900px;
+}
+
+.pub h2 {
+  color: #9B8C7A;
+}
+
+.project {
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
+  min-width: 800px;
+  height: 200px;
+}
+
+.project p a:hover {
+  color: #F05232;
+}
+
+.project-img {
+  flex: 25%;
+  position: relative;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.project-img img {
+  width: 80%;
+  min-width: 170px;
+  padding-top: 5px;
+}
+
+.project-desc {
+  flex: 75%;
+  float: right;
+  min-width: 600px;
+  max-width: 1000px;
+  padding-left: 25px;
+}
+
+.prev {
+  opacity: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.prev:hover {
+  opacity: 0%;
+}
+
+.anim {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desc {
+  font-style: italic;
+}
+
+.meta {
+  color: #9B8C7A;
+  font-size: 20px;
+}
+
+.tags {
+  font-family: 'Recursive', 'Helvetica', 'Sans-Serif';
+}
+
+.post {
+  min-width: 900px;
+}
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: #F05232;
+  color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #F05232;
+  color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #F05232;
+  color: #fff;
+}
+
+::-ms-selection {
+  background-color: #F05232;
+  color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #F05232;
+  color: #fff;
+}
