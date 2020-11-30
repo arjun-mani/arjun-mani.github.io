@@ -267,6 +267,7 @@ figcaption {
 }
  
 .about {
+  padding-left: 300px;
   padding-top: 50px;
   width: 90%;
   min-width: 900px;
