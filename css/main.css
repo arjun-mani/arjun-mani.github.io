@@ -10,18 +10,21 @@ body {
 
 /* DivTable.com */
 .divTable{
+	border: none;
 	display: table;
 	width: 100%;
 }
 .divTableRow {
+	border: none;
 	display: table-row;
 }
 .divTableCell {
-	border: 0px;
+	border: none;
 	display: table-cell;
 	padding: 3px 10px;
 }
 .divTableBody {
+	border: none;
 	display: table-row-group;
 }
 
