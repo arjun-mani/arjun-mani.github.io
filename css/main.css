@@ -13,15 +13,18 @@ body {
 	border: none;
 	display: table;
 	width: 100%;
+	vertical-align: top;
 }
 .divTableRow {
 	border: none;
 	display: table-row;
+	vertical-align: top;
 }
 .divTableCell {
 	border: none;
 	display: table-cell;
 	padding: 0px 10px;
+	vertical-align: top;
 }
 .divTableBody {
 	border: none;
