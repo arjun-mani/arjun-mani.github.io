@@ -34,7 +34,7 @@ body {
 }
 
 img.left {
-  padding: 0px 100px 60px 0;
+  padding: 0px 100px 40px 0;
   width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -52,11 +52,11 @@ footer ul li {
   margin-right: 20px;
 }
 footer a {
-  color: #666666;
+  color: #008dad;
 }
 a {
   text-decoration: none;
-  color: #09bde6;
+  color: #008dad;
 }
 a:hover {
   text-decoration: none;
