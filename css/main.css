@@ -33,6 +33,10 @@ body {
 	display: table-row-group;
 }
 
+img {
+  border-radius: 50%;
+}
+
 img.left {
   padding: 0px 100px 40px 0;
   width: 250px;
