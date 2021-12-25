@@ -3,9 +3,12 @@ layout: default
 title: Home
 ---
 
+<!--
 <div class="divTable">
 <div class="divTableBody">
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="left" style="vertical-align:top" src="cuidpic2.jpg" width="100%">
@@ -20,7 +23,36 @@ title: Home
 		<p> I am trained in Indian Classical Music - I perform vocal concerts in the US and India, and am passionate about spreading awareness of this art form. I also enjoy yoga, playing tennis, and hiking. <p>
 	</div>
 </div>
-	
+-->
+
+<div class="post-padding"></div>
+<div class="about-wide">
+	<div class="about-cols">
+		<div class="about-img">
+			<img src="./cuidpic2.jpg" width="100%" alt="profile pic" title="Yellowstone 2018">
+		</div>
+		<div class="about-desc">
+			<p> Hi there! 👋 I am a PhD student in Computer Science at Columbia University, where I work in machine learning. I am broadly interested in developing AI systems that can accelerate and transform scientific design and discovery, and applying these systems to real-world problems in healthcare and climate change. I'm fortunate to be co-advised by <a href="http://www.cs.columbia.edu/~vondrick/" target="_blank">Carl Vondrick</a> and <a href="http://www.cs.columbia.edu/~zemel/" target="_blank">Rich Zemel</a>, and to be supported by the <a href="https://www.nsfgrfp.org/" target="_blank">NSF Graduate Research Fellowship</a>. </p>
+            
+            <p> Previously, I completed my Bachelors in Computer Science at Princeton University, with a minor in Applied Math. I had the pleasure of working with <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Olga Russakovsky</a> 
+			in the Princeton Visual AI Lab and <a href="https://www.cs.princeton.edu/~rpa/" target="_blank">Ryan Adams</a>. I also spent a summer at Google. </p> 
+            
+            <p> I am trained in Indian Classical Music and perform concerts. Music page coming soon! </p>
+		</div>
+	</div>
+</div>
+<!--
+<div class="about-thin">
+	<div class="about-row">
+		<center><img src="./cuidpic2.jpg" width="50%" alt="profile pic" title="Yellowstone 2018"></center>
+		<h1>about</h1>
+		<p>Hi! 👋 I'm a first-year PhD student at Stanford University.
+			I'm interested in computer vision, computer graphics and human-computer interaction, 
+			as well as developing better creative tools.
+		</p>
+	</div>
+</div>
+-->
 
 <!-- <div class="divTableRow">
 	<div class="divTableCell">
@@ -31,57 +63,48 @@ title: Home
 	</div>
 </div> -->
 	
-<h2 id="Research" style="color:black;">Research</h2>
-	
-<div class="divTableRow">
-	<div class="divTableCell">
-		<img class="about" src="/imgs/pointing.png" width="100%">
+<h1 id="Research" style="color:black;">Research</h1>
+
+<div class="research">
+	<div class="research-img">
+		<img style="height:190px; width:200px" src="../imgs/pointing3.png">
 	</div>
-	<div class="divTableCell">
-		<h3><a href="https://arxiv.org/abs/2011.13681" target="_blank">Point and Ask: Incorporating Pointing into Visual Question Answering</a></h3>
-		<p><b> Arjun Mani </b>, Will Hinthorn, Nobline Yoo, Olga Russakovsky</p>
-		<p>VQA Workshop 2021 <b>(Poster Spotlight)</b> </p>
-		<p><a href="https://github.com/princetonvisualai/pointingqa" target="_blank">[Code]</a></p>
-		<p>We extend Visual Question Answering (VQA) to questions requiring pointing, a key component of human communication, and introduce benchmark datasets and model designs for this new question space.</p>
-	</div>
-</div>
-	
-<div class="divTableRow">
-	<div class="divTableCell">
-		<img class="about" src="/imgs/galgebra2.png" width="100%">
-	</div>
-	<div class="divTableCell">
-		<h3>Geometric Algebra and Deep Learning: A Synthesis </h3>
-		<p>Arjun Mani, Ryan Adams</p>
-		<p>Currently working on bringing the mathematics of geometric algebra into the computations and latent space of deep learning models. Our goal is to create more powerful and expressive internal representations using <i>multivectors</i> instead of vectors. Starting with word embedding models.</p>
+	<div class="research-desc">
+		<p style="font-size:18px;font-weight:1000"><a href="https://arxiv.org/abs/2011.13681">Point and Ask: Incorporating Pointing into Visual Question Answering</a></p>
+        <p><span class="extra-bold">Arjun Mani</span>, <a href="https://scholar.google.com/citations?user=ue2n778AAAAJ&hl=en">Will Hinthorn</a>, <a href="https://ai4all.princeton.edu/people/nobline-yoo/">Nobline Yoo</a>, <a href="https://www.cs.princeton.edu/~olgarus/">Olga Russakovsky</a></p>
+        <p>VQA Workshop, <i>CVPR</i> 2021 (<b>Poster Spotlight</b>). </p>
+        <p><a href="https://arxiv.org/abs/2011.13681">[arXiv]</a> / <a href="https://github.com/princetonvisualai/pointingqa">[code]</a></p><br>
+  	<p>We extend Visual Question Answering (VQA) to questions requiring pointing gestures and introduce benchmark datasets and model designs for this new question space.</p>
 	</div>
 </div>
 
-<div class="divTableRow">
-	<div class="divTableCell">
-		<img class="about" src="/imgs/active_contour.png" width="100%">
+<div class="research">
+	<div class="research-img" style="padding-right:55px;">
+		<img style="height:170px" src="../imgs/galgebra2.png">
 	</div>
-	<div class="divTableCell">
-		<h3>Adaptive Estimation of Active Contour Parameters Using Convolutional Neural Networks and Texture Analysis</h3>
-		<p>Assaf Hoogi, Arjun Subramaniam*, Rishi Veerapaneni*, Daniel Rubin</p>
-		<p><b><i>IEEE Transactions on Medical Imaging, vol. 36, no. 3, March 2017</i></b> </p>
-		<p><a href="https://ieeexplore.ieee.org/document/7742396">IEEE Homepage</a><br/><a href="./pdfs/TMI.2016.2628084.pdf">Paper PDF</a><br/></p>
-		<p>We improve on the level-set segmentation approach by using convolutional neural networks to adaptively modify parameters controlling for the expansion and contraction of the outline. The approach is fully automatic once an initial point has been provided. We achieve ~10% improvements on MRI and CT datasets of lesions.</p>
+	<div class="research-desc">
+		<p style="font-size:18px;font-weight:1000"><a href="https://www.pacm.princeton.edu/sites/default/files/pacm_arjunmani_0.pdf">Representing Words in a Geometric Algebra</a></p>
+        <p><span class="extra-bold">Arjun Mani</span>, <a href="https://www.cs.princeton.edu/~rpa/">Ryan Adams</a></p>
+    <p><i>Best Research Project</i>, Princeton Program in Applied and Computational Mathematics (PACM)</p>
+    <p> <a href="https://www.pacm.princeton.edu/sites/default/files/pacm_arjunmani_0.pdf">[Report]</a> / <a href="https://www.pacm.princeton.edu/news/2021-undergraduate-program-prize-winners-announced">[Press release]</a></p><br>
+  	<p>Represented word embeddings using <i>multivectors</i> in a geometric algebra and showed results suggesting greater expressivity in word similarity, analogy solving.</p>
+	</div>
+</div>
+
+<div class="research">
+	<div class="research-img" style="padding-right:55px;">
+		<img style="height:180px;width:190px;" src="../imgs/ieee2.png">
+	</div>
+	<div class="research-desc">
+		<p style="font-size:17px; font-weight:1000"><a href="https://ieeexplore.ieee.org/document/7742396">Adaptive Estimation of Active Contour Parameters Using Convolutional Neural Networks and Texture Analysis</a></p>
+    <p><i>IEEE Transactions on Medical Imaging</i>, vol. 36, no. 3, March 2017</p>
+    <p><a href="https://scholar.google.com/citations?user=TXsC5ZkAAAAJ&hl=en">Assaf Hoogi, </a> <span class="extra-bold">Arjun Subramaniam</span>*, <a href="https://sites.google.com/view/rishiv/">Rishi Veerapaneni*</a>, <a href="https://rubinlab.stanford.edu/">Daniel Rubin</a></p>
+    <p> <a href="./pdfs/TMI.2016.2628084.pdf">[Paper]</a> / <a href="https://ieeexplore.ieee.org/document/7742396">[IEEE page]</a></p><br>
+  	<p>Pioneered a deep learning-based, adaptive improvement of state-of-the-art segmentation techniques, which achieved ~10% accuracy gains on MRI and CT lesion datasets.</p>
 	</div>
 </div>
 	
-<div class="divTableRow">
-	<div class="divTableCell">
-		<img class="about" src="/imgs/regeneron.png" width="100%">
-	</div>
-	<div class="divTableCell">
-		<h3>CadML: Computational Antibody Design Using Deep Learning and Structural Protein Analysis</h3>
-		<p>Arjun Mani, Stephen Meier, Thomas MacCarthy</p>
-		<p><b>Finalist, Regeneron Science Talent Search </b> </p>
-		<p>We address the problem of predicting the effect of a mutation on an antibody’s binding affinity, in an attempt to identify beneficial mutations for antibody design. Our deep learning-based approach significantly outperforms existing methods.</p>
-	</div>
-</div>
-	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		&nbsp;
@@ -90,7 +113,9 @@ title: Home
 		<h2 id="Projects">Projects</h2>
 	</div>
 </div>
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="about" src="/imgs/orf569.png" width="100%">
@@ -104,7 +129,9 @@ title: Home
 		after training (e.g. using the lottery ticket hypothesis). </p>
 	</div>
 </div>
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="about" src="/imgs/cos521.png" width="100%">
@@ -117,7 +144,9 @@ title: Home
 		we also empirically examine majority dynamics and the effects of seeding or higher thresholds for changing opinions. </p>
 	</div>
 </div>
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="about" src="/imgs/cos529.png" width="100%">
@@ -130,7 +159,9 @@ title: Home
 		explicitly predicted by semantic segmentation models. </p>
 	</div>
 </div>
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		&nbsp;
@@ -140,6 +171,8 @@ title: Home
 	</div>
 </div>
 	
+-->
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="about" src="/imgs/aidan.png" width="100%">
@@ -152,7 +185,9 @@ title: Home
 			and basic data analysis (mean/mode/etc.). Requires user only to upload a CSV file of the dataset. </p>
 	</div>
 </div>
+-->
 	
+<!--
 <div class="divTableRow">
 	<div class="divTableCell">
 		<img class="about" src="/imgs/deepsquat.png" width="100%">
@@ -164,6 +199,7 @@ title: Home
 		<p>We built an app to assess squat technique, using a deep-learning based pose detection model. </p>
 	</div>
 </div>
+-->
 	
 	
 </div>
