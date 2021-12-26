@@ -80,6 +80,42 @@ body {
 
 /* -------------------------- */
 
+/* Projects section of website --- */
+.project {
+  display: flex;
+  position: relative;
+  margin-bottom: -30px;
+}
+
+.project-img {
+  position: relative;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.project-img img {
+  width: 200px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+.project-desc {
+  flex: 75%;
+  float: right;
+}
+
+.project-desc h2 {
+    font-size: 18px;
+}
+
+.project-desc h3 {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+/* ---------------------------- */
+
 .extra-bold {
     font-weight: 300;
 /*    text-shadow: 1px 0 #888888;*/
