@@ -43,6 +43,10 @@ body {
   padding-left: 50px;
   float: right;
 }
+.social-icons {
+  margin-top: 10px;
+  text-align: center;
+}
 .social-icons a {
   padding-right: 6px;
 }
