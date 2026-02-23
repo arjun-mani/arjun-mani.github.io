@@ -44,11 +44,11 @@ body {
   float: right;
 }
 .social-icons {
-  margin-top: 10px;
-  text-align: center;
+  margin-top: 20px;
+  text-align: left;
 }
 .social-icons a {
-  padding-right: 6px;
+  padding-right: 10px;
 }
 /* ------------------------- */
 
