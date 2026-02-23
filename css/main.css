@@ -3,7 +3,20 @@
 body {
   margin: 60px auto;
   width: 70%;
+  min-width: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
   background-color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  body { width: 80%; }
+}
+@media (max-width: 900px) {
+  body { width: 90%; }
+}
+@media (max-width: 600px) {
+  body { width: 95%; }
 }
 
 .post-padding {
